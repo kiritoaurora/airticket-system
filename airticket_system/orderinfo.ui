@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>orderInfo</class>
+ <widget class="QWidget" name="orderInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(71, 81, 100);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>1241</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(43, 51, 62);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectRows</enum>
+   </property>
+   <column>
+    <property name="text">
+     <string>机票编号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>航班号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>起点</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>终点</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>航班日期</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>起飞时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>到达时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>乘机人姓名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>舱位</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>座位号</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>27</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton:!hover
+{
+background-color: rgb(116, 214, 255);
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+}
+#pushButton:hover
+{
+background-color:rgb(85, 187, 138);
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+color:rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>值机</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>27</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_2:!hover
+{
+background-color: rgb(116, 214, 255);
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+}
+#pushButton_2:hover
+{
+background-color:rgb(85, 187, 138);
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+color:rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>退票</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>27</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_3:!hover
+{
+background-color: rgb(116, 214, 255);
+border-radius:20px;
+}
+#pushButton_3:hover
+{
+background-color:rgb(85, 187, 138);
+border-radius:20px;
+color:rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
